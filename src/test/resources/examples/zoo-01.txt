@@ -1,0 +1,10 @@
+doctype=testdomain.zoo.Zoo
+name=London Zoo
+mascot$=testdomain.zoo.Penguin
+mascot.id=1
+mascot.nickname=Charles
+mascot.fishPerDay=5
+animals[0]$=testdomain.zoo.Dolphin
+animals[0].id=2
+animals[0].nickname=Claire
+animals[0].length=20

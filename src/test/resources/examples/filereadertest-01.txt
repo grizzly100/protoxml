@@ -1,0 +1,13 @@
+doctype=testdomain.company.Company
+name=Fargo Inc
+@with=manager
+.name=Fred
+.salary=999.99
+.address.city=London
+manager.phones[0].localNumber=123456
+@include=includes\filereadertest-02.txt
+@include=includes\filereadertest-03.txt
+pet.id=1
+pet.nickname=Charles
+pet.colour=black
+@hello=there

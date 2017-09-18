@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns="urn:books" xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified"
+           targetNamespace="urn:books">
+    <xs:element name="library">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="book" maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element ref="isbn"/>
+                            <xs:element ref="title"/>
+                            <xs:element ref="author" minOccurs="0"
+                                        maxOccurs="unbounded"/>
+                            <xs:element ref="character" minOccurs="0"
+                                        maxOccurs="unbounded"/>
+                        </xs:sequence>
+                        <xs:attribute ref="id"/>
+                        <xs:attribute ref="available"/>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

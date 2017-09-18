@@ -1,0 +1,2 @@
+manager.phones[1].localNumber=9172756975
+manager.salary=1024.99
